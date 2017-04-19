@@ -10,7 +10,11 @@ sudo curl -LsS https://symfony.com/installer -o /usr/local/bin/symfony
 sudo chmod a+x /usr/local/bin/symfony
 symfony new symfony
 php bin/console server:start
+php bin/console security:check
+
 ```
 
-Browse to the http://localhost:8000 URL.
+- [Browse](http://localhost:8000)
+- [Check config](http://localhost:8000/config.php)
+
 
